@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>About</title>
-      <link>http://yabirgb.com/about/</link>
-      <pubDate>Sun, 19 Nov 2017 21:07:05 +0100</pubDate>
-      
-      <guid>http://yabirgb.com/about/</guid>
-      <description>I&amp;rsquo;m Yábir García Benchakhtir</description>
-    </item>
-    
-    <item>
       <title>Iterators and generators in Python</title>
       <link>http://yabirgb.com/blog/iterators-and-generators-in-python/</link>
       <pubDate>Sun, 19 Nov 2017 21:07:05 +0100</pubDate>
