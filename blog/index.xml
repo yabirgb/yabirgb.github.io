@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yábir García</title>
-    <link>http://yabirgb.com/blog/</link>
+    <link>https://yabirgb.com/blog/</link>
     <description>Recent content on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Nov 2017 21:07:05 +0100</lastBuildDate>
     
-	<atom:link href="http://yabirgb.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yabirgb.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Iterators and generators in Python</title>
-      <link>http://yabirgb.com/blog/iterators-and-generators-in-python/</link>
+      <link>https://yabirgb.com/blog/iterators-and-generators-in-python/</link>
       <pubDate>Sun, 19 Nov 2017 21:07:05 +0100</pubDate>
       
-      <guid>http://yabirgb.com/blog/iterators-and-generators-in-python/</guid>
+      <guid>https://yabirgb.com/blog/iterators-and-generators-in-python/</guid>
       <description>Recently I spoke in a event organizated by @libreim. The subject was Iterators and generators in Python. I covered itertools and provided some examples on how it works and how we can make useful things with this powerful tool.
 The examples and beamer file can be fount at github altought it is in spanish.</description>
     </item>
