@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 17 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yabirgb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google</title>
+      <link>https://yabirgb.com/tags/google/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://yabirgb.com/tags/tech/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/tags/tech/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
