@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://yabirgb.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yabirgb.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,9 +17,60 @@
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yabirgb.com/blog/looking-back-march/</guid>
-      <description>In this serie of posts I want to summarize what I have archieved, what I&amp;rsquo;m doing and share things I liked from the previous month.
-What I did  I joined to the Google HashCode 2018 with the Oh no team. We ended up in a good position with a total score of 36,448,230. The code is available at github.
- Started to record my study habits in a spreadsheet so now I count all the hours I spend studying and what I study.</description>
+      <description>
+
+&lt;p&gt;In this serie of posts I want to summarize what I have archieved,
+what I&amp;rsquo;m doing and share things I liked from the previous month.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-did&#34;&gt;What I did&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I joined to the Google HashCode 2018 with the &lt;code&gt;Oh no&lt;/code&gt; team. We ended
+up in a good position with a total score of &lt;code&gt;36,448,230&lt;/code&gt;. The code
+is available at &lt;a href=&#34;https://github.com/yabirgb/hashcode2018&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Started to record my study habits in a spreadsheet so now I count
+all the hours I spend studying and what I study. At the end of the
+semester my idea is to make an study with all this data. By now I
+have 23 days registered and a total of 50h.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learned to deploy docker&amp;rsquo;s containers, create my own image and how
+to manage containers with &lt;code&gt;docker-compose&lt;/code&gt; files. All this was by
+creating a lychee server.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Presented a propousal to work with &lt;a href=&#34;http://readthedocs.io/&#34;&gt;Read the Docs&lt;/a&gt; at the
+Google Summer of Code.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Participated in the google kickstarter but didn&amp;rsquo;t made a greate
+performance.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In order to improve how I learn, installed
+&lt;a href=&#34;https://apps.ankiweb.net/&#34;&gt;Anki&lt;/a&gt; and I created some decks.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;what-i-learned&#34;&gt;What I learned&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ActivityPub is something that has my mind trapped now.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Started with Clojure following the book online of &lt;a href=&#34;https://www.braveclojure.com/&#34;&gt;Clojure for
+the brave and True&lt;/a&gt;. At the beggining
+I dind&amp;rsquo;t liked it too much but now I see the potential that it has.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;plans&#34;&gt;Plans&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I want to use one of those portals to share links. But for now I will post a couple here.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ia800207.us.archive.org/15/items/AnatolyDnieprovTheMaxwellEquations/Anatoly-Dnieprov-The-Maxwell-Equations.pdf&#34;&gt;Soviet sci-fy from 1960s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ethereum.org/token&#34;&gt;Creating ehtereum contracts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -28,9 +79,86 @@ What I did  I joined to the Google HashCode 2018 with the Oh no team. We ended u
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yabirgb.com/blog/leaving-google/</guid>
-      <description>Recently I have tried, as the title says, scape from google as much I can. The first thing to care is my smartphone.
-I use a OnePlus One, so it has android inside. Since a year or so I&amp;rsquo;m using LineageOS with a custom ROM, TugaPower. All the time I have been using Gapps but now I updated to the Android 8.1 beta of my ROM and installed microG.
-MicroG is a project aiming to replace the Google&amp;rsquo;s code in Android smartphones with a free software clone of the libraries from Google used by apps.</description>
+      <description>&lt;p&gt;Recently I have tried, as the title says, scape from google as much I
+can. The first thing to care is my smartphone.&lt;/p&gt;
+
+&lt;p&gt;I use a &lt;em&gt;OnePlus One&lt;/em&gt;, so it has android inside. Since a year or so
+I&amp;rsquo;m using &lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS&lt;/a&gt; with a custom ROM,
+&lt;a href=&#34;http://tugapower.tk/&#34;&gt;TugaPower&lt;/a&gt;. All the time I have been using
+Gapps but now I updated to the Android 8.1 beta of my ROM and
+installed &lt;a href=&#34;https://microg.org/&#34;&gt;microG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MicroG is a project aiming to replace the Google&amp;rsquo;s code in Android
+smartphones with a free software clone of the libraries from Google
+used by apps. You can use your device without &lt;em&gt;microG&lt;/em&gt; but things like
+push notifications won&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;TugaPower&lt;/em&gt; is shiped without Google&amp;rsquo;s software so you are free to
+install whatever you want (it is a key point).&lt;/p&gt;
+
+&lt;p&gt;To install microG I used &lt;a href=&#34;https://f-droid.org/&#34;&gt;F-Droid&lt;/a&gt; as is
+described in the &lt;a href=&#34;https://microg.org/download.html&#34;&gt;download section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First you need to download &lt;em&gt;F-Droid&lt;/em&gt; and after that add to the
+repositories &lt;em&gt;microG&lt;/em&gt; in the setting of the app once installed. After
+that I searched &lt;code&gt;microg&lt;/code&gt; and installed &lt;code&gt;microG Services Core&lt;/code&gt; and
+&lt;code&gt;microG Services Framework Proxy&lt;/code&gt;. With that all is set-up and ready.&lt;/p&gt;
+
+&lt;p&gt;There are some apps that I use and are not available in the &lt;em&gt;F-Droid&lt;/em&gt;
+market. To solve that I installed &lt;a href=&#34;https://f-droid.org/en/packages/com.github.yeriomin.yalpstore/&#34;&gt;&lt;em&gt;Yalp
+Store&lt;/em&gt;&lt;/a&gt;
+from &lt;em&gt;F-Droid&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yalp&lt;/em&gt; makes something like a fake id and downloads the APKs from the
+Google&amp;rsquo;s Play Store.&lt;/p&gt;
+
+&lt;p&gt;The APPs that I have installed from &lt;em&gt;F-Droid&lt;/em&gt; are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amaze - Manage files&lt;/li&gt;
+&lt;li&gt;Camera Roll - Gallery app&lt;/li&gt;
+&lt;li&gt;K-9 Mail - Email client&lt;/li&gt;
+&lt;li&gt;KeePass DX - KeePass client for Android&lt;/li&gt;
+&lt;li&gt;NewPipe - A youtube interface&lt;/li&gt;
+&lt;li&gt;Simple Contacts - A contacts manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://freeotp.github.io/&#34;&gt;FreeOTP&lt;/a&gt; - Alternative to GAuthenticator&lt;/li&gt;
+&lt;li&gt;Gadgetbridge - Use my Pebble&lt;/li&gt;
+&lt;li&gt;Tusky - &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt; client&lt;/li&gt;
+&lt;li&gt;Yalp Store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From &lt;em&gt;Yalp Store&lt;/em&gt; I have downloaded:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Firefox&lt;/li&gt;
+&lt;li&gt;Brave - Another browser based on Chromium but apparently it &lt;a href=&#34;https://brave.com/privacy/&#34;&gt;cares
+for your privacy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;ReadEra - Read ebooks&lt;/li&gt;
+&lt;li&gt;Reddit&lt;/li&gt;
+&lt;li&gt;Telegram X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are a user of &lt;em&gt;Telegram&lt;/em&gt; as well you can install a version from
+&lt;em&gt;F-Droid&lt;/em&gt; but is the classic app, the &lt;code&gt;X&lt;/code&gt; version is only available
+from the &lt;code&gt;Play Store&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The big fail for me is &lt;em&gt;Google Maps&lt;/em&gt;. It offers a great service and
+has a lot of
+information. &lt;a href=&#34;https://www.openstreetmap.org/&#34;&gt;OpenStreetMap&lt;/a&gt; is cool
+but doesn&amp;rsquo;t work well for me. A possible alternative is &lt;a href=&#34;https://www.here.com/en&#34;&gt;Here
+Maps&lt;/a&gt; but is not as complete as &lt;em&gt;GMaps&lt;/em&gt;.
+Also even when Google Maps works good it takes more time to know where
+you are.&lt;/p&gt;
+
+&lt;p&gt;As alternative to &lt;em&gt;Gmail&lt;/em&gt; I use &lt;a href=&#34;https://protonmail.com/&#34;&gt;ProtonMail&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For my contact list I exported my complete list from gmail (the list
+that is always there when you sync your android with google) and used
+&lt;code&gt;Simple Contacts&lt;/code&gt; to import the file in my phone. Now I can also
+export it so I don&amp;rsquo;t need Google to sync my list.&lt;/p&gt;
+
+&lt;p&gt;Also as a developer I have removed &lt;em&gt;Google Analytics&lt;/em&gt; from my projects.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -39,7 +167,8 @@ MicroG is a project aiming to replace the Google&amp;rsquo;s code in Android sma
       <pubDate>Sun, 19 Nov 2017 21:07:05 +0100</pubDate>
       
       <guid>https://yabirgb.com/about/</guid>
-      <description>I&amp;rsquo;m Yábir García Benchakhtir</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Yábir García Benchakhtir&lt;/p&gt;
+</description>
     </item>
     
   </channel>
