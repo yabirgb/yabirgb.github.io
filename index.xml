@@ -6,10 +6,60 @@
     <description>Recent content on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yabirgb.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Looking back: June</title>
+      <link>https://yabirgb.com/blog/looking-back-june/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/looking-back-june/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-did-i-do-what-i-m-doing&#34;&gt;What did I do / What I&amp;rsquo;m doing&lt;/h2&gt;
+
+&lt;p&gt;June has been a month of doing a lot of things and at the same time nothing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I finished my semester. Now It&amp;rsquo;s time to enjoy!&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m working on zinat (that soon It&amp;rsquo;ll get a new name). I want to
+writte a technical post about what technologies are involved and how
+I wrote the code. At the moment I&amp;rsquo;m a bit slow but things are working.&lt;/li&gt;
+&lt;li&gt;I ordered a Revolout card and I love it &amp;lt;3. Need to share because
+It&amp;rsquo;s a great experience and maybe I&amp;rsquo;ll post more about this on the
+future.&lt;/li&gt;
+&lt;li&gt;This month also I managed to deploy a &lt;a href=&#34;https://pleroma.social/&#34;&gt;Pleroma&lt;/a&gt; instance and it&amp;rsquo;s cool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;product-review&#34;&gt;Product review&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This month I bought the &lt;a href=&#34;https://www.unixstickers.com/&#34;&gt;1$ pack of
+stickers&lt;/a&gt; and they are great. The
+quality is very good and the came well protected.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;sad-things&#34;&gt;Sad things&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For three months my phone was google free using Lineage OS and microg, but no I&amp;rsquo;m back with gapps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Eugen (aka Gargron) wrote a good
+&lt;a href=&#34;https://blog.joinmastodon.org/2018/06/how-to-implement-a-basic-activitypub-server/&#34;&gt;post&lt;/a&gt;
+about how to implement replies in ActivityPub.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.theparisreview.org/blog/2018/06/12/forty-five-things-i-learned-in-the-gulag/&#34;&gt;Forty-Five Things I Learned in the Gulag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stripe.com/blog/idempotency&#34;&gt;Designing robust and predictable APIs with idempotency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Looking back: April</title>
