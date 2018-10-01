@@ -6,10 +6,53 @@
     <description>Recent content in Recap on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yabirgb.com/tags/recap/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Looking back: Summer</title>
+      <link>https://yabirgb.com/blog/looking-back-summer/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/looking-back-summer/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-did-i-do-what-i-m-doing&#34;&gt;What did I do / What I&amp;rsquo;m doing&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;m getting federation ready for my project &lt;a href=&#34;https://github.com/anforaProject&#34;&gt;Anfora&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I traveled to Berlin and Morocco.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m re-learning rust and taking it serious.&lt;/li&gt;
+&lt;li&gt;Deployed a mastodon instance using docker.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ve send my CV for some intenships the next year.&lt;/li&gt;
+&lt;li&gt;Finally installed from zero arch in a dual boot. I had problems with
+my network card not being compatible with something and I rolled
+back. I&amp;rsquo;m using i3 wm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve colected various links this summer:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/WEgJ5i8aQiiPFgxMy54ZNA&#34;&gt;This one&lt;/a&gt; explaining how fast charging works on oppo.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getpocket.com/redirect?url=https%3A%2F%2Fblog.coinbase.com%2Fhow-were-scaling-our-platform-for-spikes-in-customer-demand-4a047cb3139c&amp;amp;formCheck=9ce0757a0caebf28bdbdeb55259e3e44&#34;&gt;Scaling on coinbase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/google-design/google-photos-45b714dfbed1&#34;&gt;Building the Google Photos Web UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segment.com/blog/goodbye-microservices/&#34;&gt;Goodbye Microservices: From 100s of problem children to 1 superstar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hacks.mozilla.org/2018/06/retained-display-lists/&#34;&gt;Retained Display Lists for improved page performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;videos&#34;&gt;Videos&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An &lt;a href=&#34;https://kyren.github.io/2018/09/14/rustconf-talk.html&#34;&gt;interesting talk&lt;/a&gt; on the rust conf about game developing&lt;/li&gt;
+&lt;li&gt;A youtube video from Jonathan Blow &lt;a href=&#34;https://youtu.be/4t1K66dMhWk&#34;&gt;reacting&lt;/a&gt; to the talk&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8Dso6Fv1FUw&#34;&gt;Understanding Quantum Mechanics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Looking back: June</title>
