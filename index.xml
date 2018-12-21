@@ -6,10 +6,127 @@
     <description>Recent content on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yabirgb.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Oracle DB in Ubuntu without dying</title>
+      <link>https://yabirgb.com/blog/using-oracle-db-in-ubuntu-without-dying/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/using-oracle-db-in-ubuntu-without-dying/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;At my subject of fundaments of databases we use Oracle as database (yes I hate
+it). I don&amp;rsquo;t have a windows machine and installing all the stuff
+from oracle to make my exercises is pure pain to me. So this is a guide to have
+fun while installing it.&lt;/p&gt;
+
+&lt;p&gt;What we are going to use is docker to put in a container Oracle XE and
+we&amp;rsquo;ll install Oracle SQL Developer.&lt;/p&gt;
+
+&lt;p&gt;You need an account in the Oracle system to download this tool.&lt;/p&gt;
+
+&lt;h2 id=&#34;install-dependencies&#34;&gt;Install dependencies&lt;/h2&gt;
+
+&lt;p&gt;We need to install docker. A guide for your system can be found
+in &lt;a href=&#34;https://docs.docker.com/install/linux/docker-ce/ubuntu/&#34;&gt;it&amp;rsquo;s offcicial webpage&lt;/a&gt;.
+At the side nav you can find your distro.&lt;/p&gt;
+
+&lt;p&gt;Probably you&amp;rsquo;ll need to add your user to the docker group. As described
+&lt;a href=&#34;https://techoverflow.net/2017/03/01/solving-docker-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket/&#34;&gt;here&lt;/a&gt;
+, you can do it with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo usermod -a -G docker $USER
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(you will need to log-out and log-in back or reboot your computer so the changes
+takes effect.&lt;/p&gt;
+
+&lt;p&gt;Once you have docker installed we&amp;rsquo;ll use a docker image for the Oracle XE.
+The one I used is &lt;a href=&#34;https://hub.docker.com/r/wnameless/oracle-xe-11g/&#34;&gt;this from wnameless&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What you need to do is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker pull wnameless/oracle-xe-11g
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this will download the container and then run it&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -d -p 49161:1521 wnameless/oracle-xe-11g
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The last one will run the database listening on port 49161.
+As described in the container page the details for the db are&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hostname: localhost
+port: 49161
+sid: xe
+username: system
+password: oracle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This method is clean and your computer won&amp;rsquo;t be filled with dependencies
+and things that at least I&amp;rsquo;m not going to use soon (or atleast I don&amp;rsquo;t want).&lt;/p&gt;
+
+&lt;p&gt;To install the Oracle SQL developer I followed &lt;a href=&#34;https://askubuntu.com/questions/458554/how-to-install-sql-developer-on-ubuntu-14-04&#34;&gt;this guide&lt;/a&gt;
+where what you need to do is&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Install java if you don&amp;rsquo;t have it&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo update-alternatives --config java
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Download SQL Developer from the &lt;a href=&#34;http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html&#34;&gt;official page&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Extract files&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo unzip sqldeveloper-*-no-jre.zip -d /opt/
+sudo chmod +x /opt/sqldeveloper/sqldeveloper.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a symbolic link to the app&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo ln -s /opt/sqldeveloper/sqldeveloper.sh /usr/local/bin/sqldeveloper
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit the start script at &lt;code&gt;/opt/sqldeveloper/sqldeveloper.sh&lt;/code&gt; so it contains&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+unset -v GNOME_DESKTOP_SESSION_ID
+cd /opt/sqldeveloper/sqldeveloper/bin &amp;amp;&amp;amp; bash sqldeveloper $*
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Run sqldeveloper&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sqldeveloper
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can create a icon in your launcher too but we aren&amp;rsquo;t not using this again so.&lt;/p&gt;
+
+&lt;p&gt;You can stop the docker container using the &lt;code&gt;stop&lt;/code&gt; option.
+To list your containers use &lt;code&gt;docker ps&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;After this you can configure SQL Developer to connect on port &lt;code&gt;49161&lt;/code&gt; with
+the credentials provided and you&lt;/p&gt;
+
+&lt;p&gt;Note: If the cursos is not showing in the SQL Developer go to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tools &amp;gt; Preferences &amp;gt; Code Editor &amp;gt; Fonts 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and chage the font size (I use &lt;code&gt;14&lt;/code&gt;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Looking back: Summer</title>
@@ -223,6 +340,94 @@ I dind&amp;rsquo;t liked it too much but now I see the potential that it has.&lt
 &lt;li&gt;&lt;a href=&#34;https://ia800207.us.archive.org/15/items/AnatolyDnieprovTheMaxwellEquations/Anatoly-Dnieprov-The-Maxwell-Equations.pdf&#34;&gt;Soviet sci-fy from 1960s&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ethereum.org/token&#34;&gt;Creating ehtereum contracts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leaving google</title>
+      <link>https://yabirgb.com/blog/leaving-google/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/leaving-google/</guid>
+      <description>&lt;p&gt;Recently I have tried, as the title says, scape from google as much I
+can. The first thing to care is my smartphone.&lt;/p&gt;
+
+&lt;p&gt;I use a &lt;em&gt;OnePlus One&lt;/em&gt;, so it has android inside. Since a year or so
+I&amp;rsquo;m using &lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS&lt;/a&gt; with a custom ROM,
+&lt;a href=&#34;http://tugapower.tk/&#34;&gt;TugaPower&lt;/a&gt;. All the time I have been using
+Gapps but now I updated to the Android 8.1 beta of my ROM and
+installed &lt;a href=&#34;https://microg.org/&#34;&gt;microG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MicroG is a project aiming to replace the Google&amp;rsquo;s code in Android
+smartphones with a free software clone of the libraries from Google
+used by apps. You can use your device without &lt;em&gt;microG&lt;/em&gt; but things like
+push notifications won&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;TugaPower&lt;/em&gt; is shiped without Google&amp;rsquo;s software so you are free to
+install whatever you want (it is a key point).&lt;/p&gt;
+
+&lt;p&gt;To install microG I used &lt;a href=&#34;https://f-droid.org/&#34;&gt;F-Droid&lt;/a&gt; as is
+described in the &lt;a href=&#34;https://microg.org/download.html&#34;&gt;download section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First you need to download &lt;em&gt;F-Droid&lt;/em&gt; and after that add to the
+repositories &lt;em&gt;microG&lt;/em&gt; in the setting of the app once installed. After
+that I searched &lt;code&gt;microg&lt;/code&gt; and installed &lt;code&gt;microG Services Core&lt;/code&gt; and
+&lt;code&gt;microG Services Framework Proxy&lt;/code&gt;. With that all is set-up and ready.&lt;/p&gt;
+
+&lt;p&gt;There are some apps that I use and are not available in the &lt;em&gt;F-Droid&lt;/em&gt;
+market. To solve that I installed &lt;a href=&#34;https://f-droid.org/en/packages/com.github.yeriomin.yalpstore/&#34;&gt;&lt;em&gt;Yalp
+Store&lt;/em&gt;&lt;/a&gt;
+from &lt;em&gt;F-Droid&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yalp&lt;/em&gt; makes something like a fake id and downloads the APKs from the
+Google&amp;rsquo;s Play Store.&lt;/p&gt;
+
+&lt;p&gt;The APPs that I have installed from &lt;em&gt;F-Droid&lt;/em&gt; are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amaze - Manage files&lt;/li&gt;
+&lt;li&gt;Camera Roll - Gallery app&lt;/li&gt;
+&lt;li&gt;K-9 Mail - Email client&lt;/li&gt;
+&lt;li&gt;KeePass DX - KeePass client for Android&lt;/li&gt;
+&lt;li&gt;NewPipe - A youtube interface&lt;/li&gt;
+&lt;li&gt;Simple Contacts - A contacts manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://freeotp.github.io/&#34;&gt;FreeOTP&lt;/a&gt; - Alternative to GAuthenticator&lt;/li&gt;
+&lt;li&gt;Gadgetbridge - Use my Pebble&lt;/li&gt;
+&lt;li&gt;Tusky - &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt; client&lt;/li&gt;
+&lt;li&gt;Yalp Store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From &lt;em&gt;Yalp Store&lt;/em&gt; I have downloaded:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Firefox&lt;/li&gt;
+&lt;li&gt;Brave - Another browser based on Chromium but apparently it &lt;a href=&#34;https://brave.com/privacy/&#34;&gt;cares
+for your privacy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;ReadEra - Read ebooks&lt;/li&gt;
+&lt;li&gt;Reddit&lt;/li&gt;
+&lt;li&gt;Telegram X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are a user of &lt;em&gt;Telegram&lt;/em&gt; as well you can install a version from
+&lt;em&gt;F-Droid&lt;/em&gt; but is the classic app, the &lt;code&gt;X&lt;/code&gt; version is only available
+from the &lt;code&gt;Play Store&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The big fail for me is &lt;em&gt;Google Maps&lt;/em&gt;. It offers a great service and
+has a lot of
+information. &lt;a href=&#34;https://www.openstreetmap.org/&#34;&gt;OpenStreetMap&lt;/a&gt; is cool
+but doesn&amp;rsquo;t work well for me. A possible alternative is &lt;a href=&#34;https://www.here.com/en&#34;&gt;Here
+Maps&lt;/a&gt; but is not as complete as &lt;em&gt;GMaps&lt;/em&gt;.
+Also even when Google Maps works good it takes more time to know where
+you are.&lt;/p&gt;
+
+&lt;p&gt;As alternative to &lt;em&gt;Gmail&lt;/em&gt; I use &lt;a href=&#34;https://protonmail.com/&#34;&gt;ProtonMail&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For my contact list I exported my complete list from gmail (the list
+that is always there when you sync your android with google) and used
+&lt;code&gt;Simple Contacts&lt;/code&gt; to import the file in my phone. Now I can also
+export it so I don&amp;rsquo;t need Google to sync my list.&lt;/p&gt;
+
+&lt;p&gt;Also as a developer I have removed &lt;em&gt;Google Analytics&lt;/em&gt; from my projects.&lt;/p&gt;
 </description>
     </item>
     
