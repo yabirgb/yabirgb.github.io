@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yabirgb.com/blog/using-oracle-db-in-ubuntu-without-dying/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yabirgb.com/blog/looking-back-summer/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://yabirgb.com/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -40,7 +45,7 @@
   
   <url>
     <loc>https://yabirgb.com/blog/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,6 +67,12 @@
   </url>
   
   <url>
+    <loc>https://yabirgb.com/tags/oracle/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yabirgb.com/tags/recap/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -76,6 +87,12 @@
   <url>
     <loc>https://yabirgb.com/tags/</loc>
     <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yabirgb.com/tags/university/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
