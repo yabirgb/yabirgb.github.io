@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yabirgb.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anfora</title>
+      <link>https://yabirgb.com/tags/anfora/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/tags/anfora/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>April</title>
@@ -17,6 +26,24 @@
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yabirgb.com/tags/april/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cusl</title>
+      <link>https://yabirgb.com/tags/cusl/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/tags/cusl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://yabirgb.com/tags/google/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/tags/google/</guid>
       <description></description>
     </item>
     
@@ -62,6 +89,15 @@
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yabirgb.com/tags/summer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://yabirgb.com/tags/tech/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/tags/tech/</guid>
       <description></description>
     </item>
     

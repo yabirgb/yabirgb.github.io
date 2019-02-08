@@ -45,7 +45,7 @@ At the side nav you can find your distro.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;(you will need to log-out and log-in back or reboot your computer so the changes
-takes effect. If you used snap to install docker follow &lt;a href=&#34;https://askubuntu.com/a/990058&#34;&gt;this steps&lt;/a&gt; )&lt;/p&gt;
+takes effect.&lt;/p&gt;
 
 &lt;p&gt;Once you have docker installed we&amp;rsquo;ll use a docker image for the Oracle XE.
 The one I used is &lt;a href=&#34;https://hub.docker.com/r/wnameless/oracle-xe-11g/&#34;&gt;this from wnameless&lt;/a&gt;.&lt;/p&gt;

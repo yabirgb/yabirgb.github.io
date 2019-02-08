@@ -6,10 +6,54 @@
     <description>Recent content on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yabirgb.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anfora at CUSL</title>
+      <link>https://yabirgb.com/blog/anfora-at-cusl/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/anfora-at-cusl/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-cusl&#34;&gt;What is CUSL?&lt;/h2&gt;
+
+&lt;p&gt;CUSL is the acronym for &amp;lsquo;Concurso Universitario de Software Libre&amp;rsquo; or
+Universitary contest of free software. I&amp;rsquo;m taking part on this contest
+with Anfora.&lt;/p&gt;
+
+&lt;h2 id=&#34;week-1-feb-01-feb-08&#34;&gt;Week 1 (Feb 01 - Feb 08)&lt;/h2&gt;
+
+&lt;p&gt;In this first week I&amp;rsquo;ve managed to achieve a lot of things.&lt;/p&gt;
+
+&lt;h3 id=&#34;client&#34;&gt;Client&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We have basic support for a dark mode &lt;a href=&#34;https://github.com/anforaProject/client/commit/99407d85b5aec65faec9d9d128ee69eb8672dd45&#34;&gt;99407d8&lt;/a&gt; and &lt;a href=&#34;https://github.com/anforaProject/client/commit/21465a72736c86e54b39a9de94c4e459d45df76d&#34;&gt;21465a7&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Now some little issues with requests and undefined variables are fixed &lt;a href=&#34;https://github.com/anforaProject/client/commit/e88d9c60f18585eb8523dc362f99eb4d1cb85925&#34;&gt;e88d9c6&lt;/a&gt; and &lt;a href=&#34;https://github.com/anforaProject/client/commit/21d5db643ae653a94dcab8352a845c57200adb93&#34;&gt;21d5db6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;server&#34;&gt;Server&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The best of the commits is this on were &lt;strong&gt;AP federation&lt;/strong&gt; starts to work &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/3d4b89040cb299d229b7b0e92950c1001f818649&#34;&gt;3d4b890&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Some issues with blocking endpoints were fixed &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/9a51b2b1f1df8d7016aae97759adabfc7bec40b0&#34;&gt;9a51b2b&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A downgrade or update has been necessary for some packages after an issue updating them &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/5835a74aa477ac0b946885cfcd0bae9b4c1055b9&#34;&gt;5835a7a&lt;/a&gt;, &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/aa854b362f380f42caf333996cee1d098e0d3795&#34;&gt;aa854b3&lt;/a&gt; and &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/43432140f51381fa866e3c148428e47cc887a9a7&#34;&gt;4343214&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;others&#34;&gt;Others&lt;/h3&gt;
+
+&lt;p&gt;This week I&amp;rsquo;ve experimented with image filters on python and I&amp;rsquo;ve
+created this &lt;a href=&#34;https://github.com/anforaProject/pyfilters.git&#34;&gt;public package&lt;/a&gt; to apply some of the filters on
+Instragram. There&amp;rsquo;s a minor effects that is not finished but I&amp;rsquo;m
+working on it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Oracle DB in Ubuntu without dying</title>
@@ -45,7 +89,7 @@ At the side nav you can find your distro.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;(you will need to log-out and log-in back or reboot your computer so the changes
-takes effect. If you used snap to install docker follow &lt;a href=&#34;https://askubuntu.com/a/990058&#34;&gt;this steps&lt;/a&gt; )&lt;/p&gt;
+takes effect.&lt;/p&gt;
 
 &lt;p&gt;Once you have docker installed we&amp;rsquo;ll use a docker image for the Oracle XE.
 The one I used is &lt;a href=&#34;https://hub.docker.com/r/wnameless/oracle-xe-11g/&#34;&gt;this from wnameless&lt;/a&gt;.&lt;/p&gt;
@@ -340,6 +384,94 @@ I dind&amp;rsquo;t liked it too much but now I see the potential that it has.&lt
 &lt;li&gt;&lt;a href=&#34;https://ia800207.us.archive.org/15/items/AnatolyDnieprovTheMaxwellEquations/Anatoly-Dnieprov-The-Maxwell-Equations.pdf&#34;&gt;Soviet sci-fy from 1960s&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ethereum.org/token&#34;&gt;Creating ehtereum contracts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leaving google</title>
+      <link>https://yabirgb.com/blog/leaving-google/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/leaving-google/</guid>
+      <description>&lt;p&gt;Recently I have tried, as the title says, scape from google as much I
+can. The first thing to care is my smartphone.&lt;/p&gt;
+
+&lt;p&gt;I use a &lt;em&gt;OnePlus One&lt;/em&gt;, so it has android inside. Since a year or so
+I&amp;rsquo;m using &lt;a href=&#34;https://lineageos.org/&#34;&gt;LineageOS&lt;/a&gt; with a custom ROM,
+&lt;a href=&#34;http://tugapower.tk/&#34;&gt;TugaPower&lt;/a&gt;. All the time I have been using
+Gapps but now I updated to the Android 8.1 beta of my ROM and
+installed &lt;a href=&#34;https://microg.org/&#34;&gt;microG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MicroG is a project aiming to replace the Google&amp;rsquo;s code in Android
+smartphones with a free software clone of the libraries from Google
+used by apps. You can use your device without &lt;em&gt;microG&lt;/em&gt; but things like
+push notifications won&amp;rsquo;t work.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;TugaPower&lt;/em&gt; is shiped without Google&amp;rsquo;s software so you are free to
+install whatever you want (it is a key point).&lt;/p&gt;
+
+&lt;p&gt;To install microG I used &lt;a href=&#34;https://f-droid.org/&#34;&gt;F-Droid&lt;/a&gt; as is
+described in the &lt;a href=&#34;https://microg.org/download.html&#34;&gt;download section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First you need to download &lt;em&gt;F-Droid&lt;/em&gt; and after that add to the
+repositories &lt;em&gt;microG&lt;/em&gt; in the setting of the app once installed. After
+that I searched &lt;code&gt;microg&lt;/code&gt; and installed &lt;code&gt;microG Services Core&lt;/code&gt; and
+&lt;code&gt;microG Services Framework Proxy&lt;/code&gt;. With that all is set-up and ready.&lt;/p&gt;
+
+&lt;p&gt;There are some apps that I use and are not available in the &lt;em&gt;F-Droid&lt;/em&gt;
+market. To solve that I installed &lt;a href=&#34;https://f-droid.org/en/packages/com.github.yeriomin.yalpstore/&#34;&gt;&lt;em&gt;Yalp
+Store&lt;/em&gt;&lt;/a&gt;
+from &lt;em&gt;F-Droid&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yalp&lt;/em&gt; makes something like a fake id and downloads the APKs from the
+Google&amp;rsquo;s Play Store.&lt;/p&gt;
+
+&lt;p&gt;The APPs that I have installed from &lt;em&gt;F-Droid&lt;/em&gt; are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amaze - Manage files&lt;/li&gt;
+&lt;li&gt;Camera Roll - Gallery app&lt;/li&gt;
+&lt;li&gt;K-9 Mail - Email client&lt;/li&gt;
+&lt;li&gt;KeePass DX - KeePass client for Android&lt;/li&gt;
+&lt;li&gt;NewPipe - A youtube interface&lt;/li&gt;
+&lt;li&gt;Simple Contacts - A contacts manager&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://freeotp.github.io/&#34;&gt;FreeOTP&lt;/a&gt; - Alternative to GAuthenticator&lt;/li&gt;
+&lt;li&gt;Gadgetbridge - Use my Pebble&lt;/li&gt;
+&lt;li&gt;Tusky - &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt; client&lt;/li&gt;
+&lt;li&gt;Yalp Store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From &lt;em&gt;Yalp Store&lt;/em&gt; I have downloaded:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Firefox&lt;/li&gt;
+&lt;li&gt;Brave - Another browser based on Chromium but apparently it &lt;a href=&#34;https://brave.com/privacy/&#34;&gt;cares
+for your privacy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;ReadEra - Read ebooks&lt;/li&gt;
+&lt;li&gt;Reddit&lt;/li&gt;
+&lt;li&gt;Telegram X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are a user of &lt;em&gt;Telegram&lt;/em&gt; as well you can install a version from
+&lt;em&gt;F-Droid&lt;/em&gt; but is the classic app, the &lt;code&gt;X&lt;/code&gt; version is only available
+from the &lt;code&gt;Play Store&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The big fail for me is &lt;em&gt;Google Maps&lt;/em&gt;. It offers a great service and
+has a lot of
+information. &lt;a href=&#34;https://www.openstreetmap.org/&#34;&gt;OpenStreetMap&lt;/a&gt; is cool
+but doesn&amp;rsquo;t work well for me. A possible alternative is &lt;a href=&#34;https://www.here.com/en&#34;&gt;Here
+Maps&lt;/a&gt; but is not as complete as &lt;em&gt;GMaps&lt;/em&gt;.
+Also even when Google Maps works good it takes more time to know where
+you are.&lt;/p&gt;
+
+&lt;p&gt;As alternative to &lt;em&gt;Gmail&lt;/em&gt; I use &lt;a href=&#34;https://protonmail.com/&#34;&gt;ProtonMail&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For my contact list I exported my complete list from gmail (the list
+that is always there when you sync your android with google) and used
+&lt;code&gt;Simple Contacts&lt;/code&gt; to import the file in my phone. Now I can also
+export it so I don&amp;rsquo;t need Google to sync my list.&lt;/p&gt;
+
+&lt;p&gt;Also as a developer I have removed &lt;em&gt;Google Analytics&lt;/em&gt; from my projects.&lt;/p&gt;
 </description>
     </item>
     
