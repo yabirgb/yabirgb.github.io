@@ -6,10 +6,261 @@
     <description>Recent content in Blogs on Yábir García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yabirgb.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anfora at CUSL</title>
+      <link>https://yabirgb.com/blog/anfora-at-cusl/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/anfora-at-cusl/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-cusl&#34;&gt;What is CUSL?&lt;/h2&gt;
+
+&lt;p&gt;CUSL is the acronym for &amp;lsquo;Concurso Universitario de Software Libre&amp;rsquo; or
+Universitary contest of free software. I&amp;rsquo;m taking part on this contest
+with Anfora.&lt;/p&gt;
+
+&lt;h2 id=&#34;week-1-feb-01-feb-08&#34;&gt;Week 1 (Feb 01 - Feb 08)&lt;/h2&gt;
+
+&lt;p&gt;In this first week I&amp;rsquo;ve managed to achieve a lot of things.&lt;/p&gt;
+
+&lt;h3 id=&#34;client&#34;&gt;Client&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We have basic support for a dark mode &lt;a href=&#34;https://github.com/anforaProject/client/commit/99407d85b5aec65faec9d9d128ee69eb8672dd45&#34;&gt;99407d8&lt;/a&gt; and &lt;a href=&#34;https://github.com/anforaProject/client/commit/21465a72736c86e54b39a9de94c4e459d45df76d&#34;&gt;21465a7&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Now some little issues with requests and undefined variables are fixed &lt;a href=&#34;https://github.com/anforaProject/client/commit/e88d9c60f18585eb8523dc362f99eb4d1cb85925&#34;&gt;e88d9c6&lt;/a&gt; and &lt;a href=&#34;https://github.com/anforaProject/client/commit/21d5db643ae653a94dcab8352a845c57200adb93&#34;&gt;21d5db6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;server&#34;&gt;Server&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The best of the commits is this on were &lt;strong&gt;AP federation&lt;/strong&gt; starts to work &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/3d4b89040cb299d229b7b0e92950c1001f818649&#34;&gt;3d4b890&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Some issues with blocking endpoints were fixed &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/9a51b2b1f1df8d7016aae97759adabfc7bec40b0&#34;&gt;9a51b2b&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A downgrade or update has been necessary for some packages after an issue updating them &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/5835a74aa477ac0b946885cfcd0bae9b4c1055b9&#34;&gt;5835a7a&lt;/a&gt;, &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/aa854b362f380f42caf333996cee1d098e0d3795&#34;&gt;aa854b3&lt;/a&gt; and &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/43432140f51381fa866e3c148428e47cc887a9a7&#34;&gt;4343214&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;others&#34;&gt;Others&lt;/h3&gt;
+
+&lt;p&gt;This week I&amp;rsquo;ve experimented with image filters on python and I&amp;rsquo;ve
+created this &lt;a href=&#34;https://github.com/anforaProject/pyfilters.git&#34;&gt;public package&lt;/a&gt; to apply some of the filters on
+Instragram. There&amp;rsquo;s a minor effects that is not finished but I&amp;rsquo;m
+working on it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a sepia filter with python</title>
+      <link>https://yabirgb.com/blog/creating-a-sepia-filter-with-python/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yabirgb.com/blog/creating-a-sepia-filter-with-python/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Last week I wanted to emulate the css effects in python on
+images. The filter that caught my attention was the sepia filter.  I
+write this because I couldn&amp;rsquo;t find much information about the topic on
+the web.&lt;/p&gt;
+
+&lt;h2 id=&#34;basics&#34;&gt;Basics&lt;/h2&gt;
+
+&lt;p&gt;A quick search on your favourite search engine leads to &lt;a href=&#34;https://www.techrepublic.com/blog/how-do-i/how-do-i-convert-images-to-grayscale-and-sepia-tone-using-c/&#34;&gt;this
+page&lt;/a&gt;
+where as mentioned in stackoverflow (&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;) what you have to do is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;outputRed = (inputRed * .393) + (inputGreen *.769) + (inputBlue * .189)
+outputGreen = (inputRed * .349) + (inputGreen *.686) + (inputBlue * .168)
+outputBlue = (inputRed * .272) + (inputGreen *.534) + (inputBlue * .131)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The result is (Image by Andrea Ranalleta on Unsplash):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yabirgb.com/images/andrea-ranalletta-1368337-unsplash-min.jpg&#34; style=&#34;display: float;  align-self:center; margin-left:16.5%; width:33%&#34;&gt;
+&lt;img src=&#34;https://yabirgb.com/images/andrea-ranalletta-1368337-unsplash-min.sepia.jpg&#34; style=&#34;display: float;  align-self:center; width:33%&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;coding-this-on-python&#34;&gt;Coding this on python&lt;/h2&gt;
+
+&lt;p&gt;With this information what you have to do is to ignore the alpha layer
+and for each pixel calculate a bunch of numbers.&lt;/p&gt;
+
+&lt;p&gt;You can use &lt;code&gt;Pillow&lt;/code&gt; for this and then on your program:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;from PIL import Image
+
+def sepia(image_path:str)-&amp;gt;Image:
+    img = Image.open(image_path)
+    width, height = img.size
+
+    pixels = img.load() # create the pixel map
+
+    for py in range(height):
+     for px in range(width):
+         r, g, b = img.getpixel((px, py))
+
+         tr = int(0.393 * r + 0.769 * g + 0.189 * b)
+         tg = int(0.349 * r + 0.686 * g + 0.168 * b)
+         tb = int(0.272 * r + 0.534 * g + 0.131 * b)
+
+         if tr &amp;gt; 255:
+             tr = 255
+
+         if tg &amp;gt; 255:
+             tg = 255
+
+         if tb &amp;gt; 255:
+             tb = 255
+
+         pixels[px, py] = (tr,tg,tb)
+
+    return img
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here I&amp;rsquo;m assuming that the image is a &lt;code&gt;jpeg&lt;/code&gt;, but in case of a &lt;code&gt;png&lt;/code&gt; is
+similar but taking care of the alpha layer. This is easy, but very &lt;strong&gt;slow&lt;/strong&gt;, so &amp;hellip; how can this be faster?&lt;/p&gt;
+
+&lt;p&gt;My next search was for applying filters to images and I discovered cv2.
+Scrolling fast the docs I wrote this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import cv2
+import numpy as np
+from PIL import Image
+
+def sepia_cv(image_path:str)-&amp;gt;Image:
+    &amp;quot;&amp;quot;&amp;quot;
+    Optimization on the sepia filter using cv2 
+    &amp;quot;&amp;quot;&amp;quot;
+
+    image = Image.open(image_path)
+
+    # Load the image as an array so cv knows how to work with it
+    img = np.array(image)
+
+    # Apply a transformation where we multiply each pixel rgb 
+    # with the matrix for the sepia
+
+    filt = cv2.transform( img, np.matrix([[ 0.393, 0.769, 0.189],
+                                          [ 0.349, 0.686, 0.168],
+                                          [ 0.272, 0.534, 0.131]                                  
+    ]) )
+
+    # Check wich entries have a value greather than 255 and set it to 255
+    filt[np.where(filt&amp;gt;255)] = 255
+
+    # Create an image from the array 
+    return Image.fromarray(filt)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What is happening here is that the previous sums and products are no
+more than a linear transformation between subspaces of the reals,
+so we can represent this as a matrix. But loading &lt;code&gt;cv2&lt;/code&gt; and &lt;code&gt;numpy&lt;/code&gt;
+for this is too much so let&amp;rsquo;s just use numpy.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def sepia_np(image_path:str)-&amp;gt;Image:
+    &amp;quot;&amp;quot;&amp;quot;
+    Optimization on the sepia filter using numpy 
+    &amp;quot;&amp;quot;&amp;quot;
+
+    image = Image.open(image_path)
+
+    # Load the image as an array so cv knows how to work with it
+    img = np.array(image)
+
+    # Apply a transformation where we multiply each pixel 
+    # rgb with the matrix transformation for the sepia
+
+    lmap = np.matrix([[ 0.393, 0.769, 0.189],
+                      [ 0.349, 0.686, 0.168],
+                      [ 0.272, 0.534, 0.131]                                  
+    ])
+
+    filt = np.array([x * lmap.T for x in img] )
+
+    # Check wich entries have a value greather than 255 and set it to 255
+    filt[np.where(filt&amp;gt;255)] = 255
+
+    # Create an image from the array
+    return Image.fromarray(filt.astype(&#39;uint8&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this solution take care of (&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;improving-the-filter&#34;&gt;Improving the filter&lt;/h2&gt;
+
+&lt;p&gt;In &lt;code&gt;CSS&lt;/code&gt; you can apply an scale to the filter. After searching a lot I
+found &lt;a href=&#34;https://drafts.fxtf.org/filter-effects/#sepiaEquivalent&#34;&gt;&lt;em&gt;this
+link&lt;/em&gt;&lt;/a&gt; where
+it specifies how to apply the filter using this scale. The thing is
+that aside the linear map, you are using a movement. The
+transformation matrix is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    matrix = [[ 0.393 + 0.607 * (1 - k), 0.769 - 0.769 * (1 - k), 0.189 - 0.189 * (1 - k)],
+    [ 0.349 - 0.349 * (1 - k), 0.686 + 0.314 * (1 - k), 0.168 - 0.168 * (1 - k)],
+    [ 0.272 - 0.349 * (1 - k), 0.534 - 0.534* (1 - k), 0.131 + 0.869 * (1 - k)]]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;k&lt;/code&gt; is the interval [0,1].&lt;/p&gt;
+
+&lt;p&gt;Here are some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sepia with amount = 0 (original image)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yabirgb.com/images/andrea-ranalletta-1368337-unsplash-min.sepia.0.jpg&#34; style=&#34;width:33%&#34;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sepia with amount = 0.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yabirgb.com/images/andrea-ranalletta-1368337-unsplash-min.sepia.0.3.jpg&#34; style=&#34;width:33%&#34;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sepia with amount = 0.7&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yabirgb.com/images/andrea-ranalletta-1368337-unsplash-min.sepia.0.7.jpg&#34; style=&#34;width:33%&#34;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sepia with amount = 1 (the same filter we created initally)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yabirgb.com/images/andrea-ranalletta-1368337-unsplash-min.sepia.1.jpg&#34; style=&#34;width:33%&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;measuring-times&#34;&gt;Measuring times&lt;/h2&gt;
+
+&lt;p&gt;Calling &lt;code&gt;python -m cProfile test.py&lt;/code&gt; (&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;) with my Pentium G3258 on the image used in this post (2453x2453 pixels):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+
+         1    0.007    0.007    0.293    0.293 test.py:34(sepia_cv)
+         1    0.033    0.033    0.499    0.499 test.py:56(sepia_np)
+         1    7.857    7.857   16.634   16.634 test.py:7(sepia)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This times don&amp;rsquo;t count the time importing the modules used.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://stackoverflow.com/questions/1061093/how-is-a-sepia-tone-created&#34;&gt;How is a sepia tone created?&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;&lt;a href=&#34;https://stackoverflow.com/a/27623335&#34;&gt;Why we need uint8&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;&lt;a href=&#34;https://docs.python.org/3/library/profile.html&#34;&gt;cProfile&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Oracle DB in Ubuntu without dying</title>
