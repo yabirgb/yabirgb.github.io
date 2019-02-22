@@ -45,9 +45,9 @@ Client  We have basic support for a dark mode 99407d8 and 21465a7. Now some litt
 
 
     
-    <link rel="stylesheet" href="https://yabirgb.com/css/reset.css?t=2019-02-17%2014%3a06%3a31.662979601%20%2b0100%20CET%20m%3d%2b0.043045136">
-    <link rel="stylesheet" href="https://yabirgb.com/css/pygments.css?t=2019-02-17%2014%3a06%3a31.662979601%20%2b0100%20CET%20m%3d%2b0.043045136">
-    <link rel="stylesheet" href="https://yabirgb.com/css/main.css?t=2019-02-17%2014%3a06%3a31.662979601%20%2b0100%20CET%20m%3d%2b0.043045136">
+    <link rel="stylesheet" href="https://yabirgb.com/css/reset.css?t=2019-02-22%2014%3a08%3a03.428450064%20%2b0100%20CET%20m%3d%2b0.526219811">
+    <link rel="stylesheet" href="https://yabirgb.com/css/pygments.css?t=2019-02-22%2014%3a08%3a03.428450064%20%2b0100%20CET%20m%3d%2b0.526219811">
+    <link rel="stylesheet" href="https://yabirgb.com/css/main.css?t=2019-02-22%2014%3a08%3a03.428450064%20%2b0100%20CET%20m%3d%2b0.526219811">
     
 
 
@@ -151,7 +151,7 @@ Client  We have basic support for a dark mode 99407d8 and 21465a7. Now some litt
                     <div class="date" title='Fri Feb 8 2019 00:00:00 UTC'>Feb 8, 2019</div>
                     
                     
-		    <div class="reading-time"><div class="middot"></div>One minute read</div>
+		    <div class="reading-time"><div class="middot"></div>2 minutes read</div>
                     
                 </div>
             </div>
@@ -191,6 +191,33 @@ with Anfora.</p>
 created this <a href="https://github.com/anforaProject/pyfilters.git">public package</a> to apply some of the filters on
 Instragram. There&rsquo;s a minor effects that is not finished but I&rsquo;m
 working on it.</p>
+
+<h2 id="week-2-feb-09-feb-15">Week 2 (Feb 09- Feb 15)</h2>
+
+<p>This can be title the <strong>black week</strong>. I wanted to deploy a test
+instance but It was a big failure. Mostly because I rushed the code
+but I wanted to let the people test on the go.</p>
+
+<h2 id="server-1">Server</h2>
+
+<ul>
+<li><p>The issues with nodeInfo were fixed
+<a href="https://github.com/anforaProject/anfora/commit/8e84a084fa9ef9ae3bcca725d34b789e3fb79cf5">8e84a08</a>. NodeInfo
+is an standard to discover platforms in the federated wolrd. More info <a href="https://github.com/jhass/nodeinfo">here</a>.</p></li>
+
+<li><p>We have new code to share the new statuses with followers
+<a href="https://github.com/anforaProject/anfora/commit/3cc3539a5431f36bd95f6c0086d9c95baba94028">3cc3539</a>.</p></li>
+
+<li><p>New API endpoint to share with the client when the server has registrations open <a href="https://github.com/anforaProject/anfora/commit/912b0f7b2aca15eadd2131f9fb9041fd9a05de4e">912b0f7b</a>.</p></li>
+
+<li><p>Now the creation of new users is handled async fixing a bug in the main thread were many requests were blocked <a href="https://github.com/anforaProject/anfora/commit/1d31fd2491d5ad8aaae8c93500118b106526bc42">1d31fd2</a></p></li>
+</ul>
+
+<p>This week have tought me a lot of things and I&rsquo;m taking a rest to go back with federation again!</p>
+
+<h2 id="week-3-feb-16-feb-22">Week 3 (Feb 16 - Feb 22)</h2>
+
+<p>This week was to rest before going back to code.</p>
 
                 <br>
 		<p class="back-to-posts"><a href="https://yabirgb.com/blog/">Back to posts</a></p>

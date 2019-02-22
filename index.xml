@@ -259,6 +259,33 @@ with Anfora.&lt;/p&gt;
 created this &lt;a href=&#34;https://github.com/anforaProject/pyfilters.git&#34;&gt;public package&lt;/a&gt; to apply some of the filters on
 Instragram. There&amp;rsquo;s a minor effects that is not finished but I&amp;rsquo;m
 working on it.&lt;/p&gt;
+
+&lt;h2 id=&#34;week-2-feb-09-feb-15&#34;&gt;Week 2 (Feb 09- Feb 15)&lt;/h2&gt;
+
+&lt;p&gt;This can be title the &lt;strong&gt;black week&lt;/strong&gt;. I wanted to deploy a test
+instance but It was a big failure. Mostly because I rushed the code
+but I wanted to let the people test on the go.&lt;/p&gt;
+
+&lt;h2 id=&#34;server-1&#34;&gt;Server&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The issues with nodeInfo were fixed
+&lt;a href=&#34;https://github.com/anforaProject/anfora/commit/8e84a084fa9ef9ae3bcca725d34b789e3fb79cf5&#34;&gt;8e84a08&lt;/a&gt;. NodeInfo
+is an standard to discover platforms in the federated wolrd. More info &lt;a href=&#34;https://github.com/jhass/nodeinfo&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We have new code to share the new statuses with followers
+&lt;a href=&#34;https://github.com/anforaProject/anfora/commit/3cc3539a5431f36bd95f6c0086d9c95baba94028&#34;&gt;3cc3539&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;New API endpoint to share with the client when the server has registrations open &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/912b0f7b2aca15eadd2131f9fb9041fd9a05de4e&#34;&gt;912b0f7b&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now the creation of new users is handled async fixing a bug in the main thread were many requests were blocked &lt;a href=&#34;https://github.com/anforaProject/anfora/commit/1d31fd2491d5ad8aaae8c93500118b106526bc42&#34;&gt;1d31fd2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This week have tought me a lot of things and I&amp;rsquo;m taking a rest to go back with federation again!&lt;/p&gt;
+
+&lt;h2 id=&#34;week-3-feb-16-feb-22&#34;&gt;Week 3 (Feb 16 - Feb 22)&lt;/h2&gt;
+
+&lt;p&gt;This week was to rest before going back to code.&lt;/p&gt;
 </description>
     </item>
     
