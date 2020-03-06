@@ -77,10 +77,5 @@ pre{
         flex-direction:column;
         
     }
-    #index-content > a{
-        font-size: large;
-    }
-
-    
 }
 
