@@ -26,6 +26,12 @@ pre{
     padding:1%;
 }
 
+#index-content{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+
 #post-list{
     display:flex;
     flex-wrap:wrap;
